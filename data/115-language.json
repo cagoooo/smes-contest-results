@@ -1,0 +1,468 @@
+{
+  "id": "115-language",
+  "title": "115 學年度校內語文競賽",
+  "subtitle": "國語文・本土語文・英語文",
+  "published": "2026-11-25",
+  "items": [
+    {
+      "title": "二年級硬筆字",
+      "grade": "二年級",
+      "event": "硬筆字",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "三年級硬筆字",
+      "grade": "三年級",
+      "event": "硬筆字",
+      "group": "國語文",
+      "results": [
+        {
+          "cls": "304",
+          "name": "游○甯",
+          "award": "特優",
+          "order": 1
+        },
+        {
+          "cls": "304",
+          "name": "謝○翎",
+          "award": "特優",
+          "order": 1
+        },
+        {
+          "cls": "305",
+          "name": "古○勤",
+          "award": "特優",
+          "order": 1
+        },
+        {
+          "cls": "302",
+          "name": "蕭○",
+          "award": "優等",
+          "order": 2
+        },
+        {
+          "cls": "302",
+          "name": "葉○穎",
+          "award": "優等",
+          "order": 2
+        },
+        {
+          "cls": "302",
+          "name": "林○岑",
+          "award": "優等",
+          "order": 2
+        },
+        {
+          "cls": "305",
+          "name": "董○文",
+          "award": "優等",
+          "order": 2
+        },
+        {
+          "cls": "301",
+          "name": "張○寧",
+          "award": "佳作",
+          "order": 4
+        },
+        {
+          "cls": "303",
+          "name": "魏○",
+          "award": "佳作",
+          "order": 4
+        },
+        {
+          "cls": "303",
+          "name": "徐○宇",
+          "award": "佳作",
+          "order": 4
+        },
+        {
+          "cls": "303",
+          "name": "蕭○程",
+          "award": "佳作",
+          "order": 4
+        },
+        {
+          "cls": "305",
+          "name": "羅○程",
+          "award": "佳作",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "title": "二年級國語朗讀",
+      "grade": "二年級",
+      "event": "國語朗讀",
+      "group": "國語文",
+      "results": [
+        {
+          "cls": "202",
+          "name": "袁○喬",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "201",
+          "name": "吳○婕",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "201",
+          "name": "楊○甯",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "203",
+          "name": "邱○恩",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "204",
+          "name": "陳○晴",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "204",
+          "name": "楊○安",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "四年級字音字形",
+      "grade": "四年級",
+      "event": "字音字形",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "四年級書法",
+      "grade": "四年級",
+      "event": "書法",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "四年級作文",
+      "grade": "四年級",
+      "event": "作文",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "五年級字音字形",
+      "grade": "五年級",
+      "event": "字音字形",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "五年級書法",
+      "grade": "五年級",
+      "event": "書法",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "五年級作文",
+      "grade": "五年級",
+      "event": "作文",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "三年級國語朗讀",
+      "grade": "三年級",
+      "event": "國語朗讀",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "四年級臺灣台語朗讀",
+      "grade": "四年級",
+      "event": "臺灣台語朗讀",
+      "group": "本土語文",
+      "results": [
+        {
+          "cls": "402",
+          "name": "劉○潔",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "403",
+          "name": "王○羽",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "404",
+          "name": "林○晴",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "401",
+          "name": "洪○禹",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "402",
+          "name": "陳○銨",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "404",
+          "name": "石○維",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "四年級臺灣客語朗讀",
+      "grade": "四年級",
+      "event": "臺灣客語朗讀",
+      "group": "本土語文",
+      "results": []
+    },
+    {
+      "title": "四年級英語朗讀",
+      "grade": "四年級",
+      "event": "英語朗讀",
+      "group": "英語文",
+      "results": [
+        {
+          "cls": "402",
+          "name": "邱○婷",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "404",
+          "name": "邱○綾",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "405",
+          "name": "黃○恒",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "403",
+          "name": "周○宏",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "403",
+          "name": "徐○",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "404",
+          "name": "洪○芙",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "四年級國語演說",
+      "grade": "四年級",
+      "event": "國語演說",
+      "group": "國語文",
+      "results": [
+        {
+          "cls": "404",
+          "name": "謝○恩",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "403",
+          "name": "劉○紜",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "404",
+          "name": "潘○欣",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "402",
+          "name": "鄭○露",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "402",
+          "name": "葉○姍",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "405",
+          "name": "江○諒",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "四年級國語朗讀",
+      "grade": "四年級",
+      "event": "國語朗讀",
+      "group": "國語文",
+      "results": [
+        {
+          "cls": "404",
+          "name": "邱○綾",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "401",
+          "name": "張○心",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "403",
+          "name": "林○岳",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "402",
+          "name": "彭○庭",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "402",
+          "name": "張○泰",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "403",
+          "name": "林○晞",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "五年級國語朗讀",
+      "grade": "五年級",
+      "event": "國語朗讀",
+      "group": "國語文",
+      "results": []
+    },
+    {
+      "title": "五年級臺灣台語朗讀",
+      "grade": "五年級",
+      "event": "臺灣台語朗讀",
+      "group": "本土語文",
+      "results": [
+        {
+          "cls": "504",
+          "name": "陳○姿",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "503",
+          "name": "蕭○禧",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "504",
+          "name": "呂○棋",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "503",
+          "name": "鄭○潤",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "505",
+          "name": "藍○妡",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "五年級臺灣客語朗讀",
+      "grade": "五年級",
+      "event": "臺灣客語朗讀",
+      "group": "本土語文",
+      "results": []
+    },
+    {
+      "title": "五六年級英語說故事",
+      "grade": "五六年級",
+      "event": "英語說故事",
+      "group": "英語文",
+      "results": [
+        {
+          "cls": "601",
+          "name": "吳○暄",
+          "award": "第一名",
+          "order": 1
+        },
+        {
+          "cls": "503",
+          "name": "吳○霓",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "504",
+          "name": "陳○姿",
+          "award": "第二名",
+          "order": 2
+        },
+        {
+          "cls": "605",
+          "name": "黃○哲",
+          "award": "第三名",
+          "order": 3
+        },
+        {
+          "cls": "605",
+          "name": "高○倩",
+          "award": "第三名",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "title": "五年級國語演說",
+      "grade": "五年級",
+      "event": "國語演說",
+      "group": "國語文",
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "contests": [
+    { "id": "115-language", "file": "data/115-language.json" }
+  ]
+}
