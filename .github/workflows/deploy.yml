@@ -24,11 +24,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: 檢查資料沒有未去識別化的姓名
         run: python3 tools/check_privacy.py
-      - name: 準備發布檔案
+      - name: 準備發布檔案（注入版本號：版本-commit 前 7 碼）
         run: |
           mkdir -p _site
-          cp -r index.html style.css app.js assets data _site/
+          cp -r index.html style.css app.js update.js sw.js favicon.ico manifest.webmanifest version.json assets data _site/
           touch _site/.nojekyll
+          VER=$(python3 -c "import json;print(json.load(open('version.json',encoding='utf-8'))['version'])")
+          BUILD="${VER}-${GITHUB_SHA::7}"
+          sed -i "s/__BUILD_VERSION__/${BUILD}/" _site/sw.js
+          python3 - "$BUILD" <<'PY'
+          import json, sys
+          p = '_site/version.json'
+          d = json.load(open(p, encoding='utf-8'))
+          d['build'] = sys.argv[1]
+          json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+          PY
+          grep -q "${BUILD}" _site/sw.js && echo "已注入版本 ${BUILD}"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
