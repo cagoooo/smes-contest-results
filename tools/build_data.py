@@ -3,7 +3,7 @@
 用法：python tools/build_data.py <excel路徑> <輸出json> --id <競賽代號> --title <標題> [--sheet 頒獎]
 原始 Excel 含學生全名，請勿放進這個 repo（.gitignore 已排除 *.xlsx）。
 """
-import argparse, json, re, sys
+import argparse, json, pathlib, re, sys
 import openpyxl
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -65,6 +65,20 @@ def main():
             results.sort(key=lambda x: (x["order"], x["cls"]))
             items.append({"title": title, "grade": grade, "event": event,
                           "group": group_of(title), "results": results})
+
+    # 套用人工更正（data/corrections.json；只用去識別化姓名比對）
+    corr = pathlib.Path(__file__).resolve().parent.parent / "data" / "corrections.json"
+    if corr.exists():
+        for fx in json.load(open(corr, encoding="utf-8")).get("fixes", []):
+            hit = False
+            for it in items:
+                if it["title"] != fx["item"]:
+                    continue
+                for r in it["results"]:
+                    if r["name"] == fx["name"] and r["cls"] == fx["cls_from"]:
+                        r["cls"] = fx["cls_to"]; hit = True
+                it["results"].sort(key=lambda x: (x["order"], x["cls"]))
+            print(("已套用更正：" if hit else "⚠️ 找不到要更正的資料：") + f'{fx["item"]} {fx["name"]} {fx["cls_from"]}→{fx["cls_to"]}')
 
     data = {"id": a.id, "title": a.title, "subtitle": a.subtitle,
             "published": a.published, "items": items}
