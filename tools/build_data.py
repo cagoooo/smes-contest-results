@@ -75,10 +75,12 @@ def main():
                 if it["title"] != fx["item"]:
                     continue
                 for r in it["results"]:
-                    if r["name"] == fx["name"] and r["cls"] == fx["cls_from"]:
-                        r["cls"] = fx["cls_to"]; hit = True
+                    if r["name"] == fx["name"] and r["cls"] == fx.get("cls_from", r["cls"]):
+                        if "cls_to" in fx: r["cls"] = fx["cls_to"]
+                        if "name_to" in fx: r["name"] = fx["name_to"]
+                        hit = True
                 it["results"].sort(key=lambda x: (x["order"], x["cls"]))
-            print(("已套用更正：" if hit else "⚠️ 找不到要更正的資料：") + f'{fx["item"]} {fx["name"]} {fx["cls_from"]}→{fx["cls_to"]}')
+            print(("已套用更正：" if hit else "⚠️ 找不到要更正的資料：") + f'{fx["item"]} {fx["name"]} {fx.get("cls_from","")}→{fx.get("cls_to","")} {fx.get("name_to","")}')
 
     data = {"id": a.id, "title": a.title, "subtitle": a.subtitle,
             "published": a.published, "items": items}
